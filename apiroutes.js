@@ -32,10 +32,18 @@ router.get('/notes/:id', async function(req, res){
 // Delete note including an ID
 router.delete('/notes/:id', async function(req, res){
     notes.splice(req.params.id, 1);
-    res.json(JSON.parse(notes[req.params.id]));
+    refreshDb;
     console.log("Deleted note: "+req.params.id);
 });
 
 
+// Updates the json file whenever a note is added or deleted
+function refreshDb() {
+    writeFileAsync('/db.json',JSON.stringify(notes, '\t'), err => {
+        if (err) throw err;
+        return true;
+    });
+
+}
 
 module.exports = router;
