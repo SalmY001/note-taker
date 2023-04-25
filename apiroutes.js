@@ -5,7 +5,6 @@ const readFileAsync = util.promisify(fs.readFile)
 const writeFileAsync = util.promisify(fs.writeFile)
 
 const uuid = require('uuid');
-//const {uuidv4} = require('uuid');
 
 // Get route for api notes
 router.get('/notes', async function(req, res){
@@ -17,13 +16,6 @@ router.get('/notes', async function(req, res){
 
 // Post route for api notes
 router.post('/notes', async function(req, res){
-    /*const notes = await readFileAsync('db.json', 'UTF-8')*/
-
-    /*notes.push(req.body)
-    notes.push(notes)
-    writeFileAsync('db.json', notes, 'UTF-8')
-    res.json(JSON.parse(notes))
-    console.log('New note added: '+notes.title);*/
     console.log('Checking router');
 
     const {title, text} = (req.body);
@@ -63,7 +55,6 @@ router.delete('/notes/:id', async function(req, res){
     }})
 
 });
-
 
 // Updates the json file whenever a note is added or deleted
 function refreshDb(notes) {
