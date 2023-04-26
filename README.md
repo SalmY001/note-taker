@@ -28,6 +28,8 @@ Example images of the note taker application are displayed below.
 
 The application is deployed in the link below.
 
+https://note-taker-salmy001.herokuapp.com/
+
 ## Credits
 
 N/A
