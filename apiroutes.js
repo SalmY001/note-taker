@@ -50,7 +50,7 @@ router.delete('/notes/:id', async function(req, res){
           let parsedData = JSON.parse(data);
           parsedData = parsedData.filter(note => note.id != req.params.id) 
     refreshDb(parsedData);
-    console.log("Deleted note: "+req.params.id);
+    console.log("Deleted note: "+ req.params.id);
     res.status(200).json("Deleted note: "+ req.params.id)
     }})
 
