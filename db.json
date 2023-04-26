@@ -1,1 +1,12 @@
-[{"title":"Test Title","text":"Test text","id":"1"}]
+[
+    {
+        "title": "Monday Tasks",
+        "text": "Studying\nWork\nWashing",
+        "id": "1be6cc8d-61ed-4fc5-a6c7-64b9bcf2d65d"
+    },
+    {
+        "title": "Tuesday Tasks",
+        "text": "Work\nShopping\nCooking",
+        "id": "d602322a-76e0-4560-a0d3-08dbf70405c9"
+    }
+]
