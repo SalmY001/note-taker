@@ -2,7 +2,7 @@
 
 ## Description
 
-The project aims to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+The project aims to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and saves and retrieves the notes data from a JSON file.
 
 The project helps to develop skills in building a back-end application.
 
