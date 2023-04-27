@@ -48,7 +48,7 @@ The application is deployed in the link below.
 
 https://note-taker-salmy001.herokuapp.com/
 
-## Credits
+## Contributors
 
 N/A
 
