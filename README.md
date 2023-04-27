@@ -33,11 +33,11 @@ npm install -g nodemon
 In order to use the application follow the steps below:
 
 1. To add a new note - Enter a note title and note text.
-2. Click the save button in the top right-hand side of the screen.
+2. Click the save button on the top right-hand side of the screen.
 3. The note will then appear on the left-hand side of the screen.
 4. To view the saved note's text, click on the note's title on the left-hand side of the screen.
 5. To delete a note - Click on the bin icon on the saved note.
-6. To add a subsequent note click on the + icon in the top right-hand side of the screen and/or repeat from step 1.
+6. To add a subsequent note, click on the + icon on the top right-hand side of the screen and/or repeat from step 1.
 
 Example images of the note taker application are displayed below.
 
